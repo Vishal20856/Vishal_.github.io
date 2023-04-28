@@ -11,7 +11,7 @@
     height: 100%;
     background-color: crimson;
     z-index: 9999;
-    animation: fade-out 7s ease-out forwards;
+    animation: fade-out 5s ease-out forwards;
   }
   
   @keyframes fade-out {
