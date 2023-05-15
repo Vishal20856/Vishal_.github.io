@@ -11,7 +11,7 @@
     height: 100%;
     background-color: crimson;
     z-index: 9999;
-    animation: fade-out 5s ease-out forwards;
+    animation: fade-out 7s ease-out forwards;
   }
   
   @keyframes fade-out {
@@ -35,6 +35,18 @@
       transform: rotate(360deg);
     }
   }
+/*   
+  #content {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  #content.show {
+    opacity: 1;
+    visibility: visible;
+  } */
+  
 *{
     margin: 0;
     padding: 0;
@@ -305,7 +317,7 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: #111;
-    content: "what i provide";
+    content: "-what me and my friends provide-";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
@@ -416,7 +428,7 @@ section .title::after{
 
 /* teams section styling */
 .teams .title::after{
-    content: "who with me";
+    content: "my creativity";
 }
 .teams .carousel .card{
     background: #222;
@@ -747,4 +759,12 @@ footer span a:hover{
 }
 .git:hover{
     transform: scale(1); 
+}
+.pro{
+    border: 1px solid white;
+    padding: 2px 10px 2px 10px;
+    border-radius: 20px;
+}
+.pro:hover{
+    background-color: black;
 }
